@@ -1,0 +1,4 @@
+services:
+#    simple_user.example:
+#        class: SimpleUserBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

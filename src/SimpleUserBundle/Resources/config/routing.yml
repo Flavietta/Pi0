@@ -1,0 +1,6 @@
+simple_user_homepage:
+    path:     /
+    defaults: { _controller: SimpleUserBundle:Default:index }
+simple_user_affiche:
+    path:     /afficheSimpleUser
+    defaults: { _controller: SimpleUserBundle:SimpleUser:AfficheSimpleUser }

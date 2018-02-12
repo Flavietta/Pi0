@@ -1,0 +1,4 @@
+services:
+#    super_user.example:
+#        class: SuperUserBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

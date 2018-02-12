@@ -1,0 +1,13 @@
+user_homepage:
+    path:     /
+    defaults: { _controller: UserBundle:Default:index }
+afficherUser:
+    path:     /AfficherU
+    defaults: { _controller: UserBundle:user:AfficherUser }
+afficherProduitUser:
+    path:     /AfficherP
+    defaults: { _controller: UserBundle:user:AfficherProduitUser }
+
+AjoutProduitUser:
+    path:     /AjoutP
+    defaults: { _controller: UserBundle:user:ajoutProduitUser }
